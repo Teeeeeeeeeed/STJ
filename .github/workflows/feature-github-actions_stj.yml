@@ -58,4 +58,4 @@ jobs:
           app-name: 'STJ'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9BF4723E9F62472883B6AEEA1D723E9E }}
-          package: "./STJ/build"
+          package: "./frontend/build"
